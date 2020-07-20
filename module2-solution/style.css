@@ -1,0 +1,126 @@
+/* Simple Responsive Framework. */
+
+/********** Large devices only **********/
+@media (min-width: 992px){
+
+    div{
+        height:200px;
+        width: 30%;
+        float: left;
+        margin: 15px;
+        box-sizing: border-box;
+        margin: 15px;
+
+      }
+
+}
+
+/********** tablet devices  **********/
+
+    @media (min-width: 768px) and (max-width: 991px) {        
+
+   
+div{
+
+    float:left;
+    height:200px;
+   
+}
+#item1{
+    width: 45.5%;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 20px;
+    box-sizing: border-box;
+     }
+#item2{
+    width: 45.5%;
+    box-sizing: border-box;
+    margin-right: 15px;
+    box-sizing: border-box;
+ 
+     }
+#item3{
+    margin: 15px;
+    clear: both;
+     
+    }
+   
+  
+
+}
+
+
+/***********************************/
+div{
+
+    
+    border: 5px solid black;
+    margin: 15px;
+    background-color: darkseagreen;
+    
+}
+
+
+
+
+
+
+/******************************************************/
+header {
+          width: 100%;
+          text-align:center;
+        }
+
+
+
+
+/*****************************************************/        
+header > h1{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+/****************************************************/
+h2{
+
+     border: 5px solid black;
+     border-top: 0px;
+     border-right: 0px;
+     text-align: center;
+     width: 80px;
+     padding-right: 20px;
+     padding-left: 20PX;
+     margin: 0px;
+     float: right;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+     
+   
+}
+/**********************************************/
+#item1 > h2{
+      background-color: blueviolet;
+}
+#item2 > h2{
+       background-color: burlywood;
+}
+#item3 > h2{
+    background-color: cyan;
+}
+
+
+
+
+
+/***********************************************/
+p{
+    
+  text-align: left;
+  clear: both;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
