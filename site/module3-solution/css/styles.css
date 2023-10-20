@@ -1,0 +1,162 @@
+/* Simple Responsive Framework. */
+*{
+  box-sizing: border-box;
+}
+
+/* Header */
+
+#header-nav{
+  background-color: #296F99;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-header h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  color: #fff;
+  font-size: 2.9em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin: 10px 0px 15px 10px;
+  padding-left: 10px ;
+  line-height: .75;
+}
+.navbar-header a:hover{
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list{
+  display: none;
+}
+
+
+
+/* end of header */
+
+#item1, #item2, #item3{
+  border: 2px solid #3F0C1F;
+  height: 200px;  
+  background-color: darkseagreen;
+  width:  100%;
+  margin: 0 auto 15px
+  padding: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.row p{
+    position: relative;
+    text-align: left;
+    clear: both;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.row h2 {
+       position: relative;
+       top: 0;
+       left: 50%;
+       margin-top: 0px;
+       margin-bottom: 5px;
+       transform: translateX(-50%);
+       text-align: center;
+       width: 150px;
+       border: 2px solid black;
+       border-top: 0px;
+}
+
+#item1 h2{
+
+       background-color: blueviolet;
+
+}
+
+#item2 h2{
+       background-color: burlywood;
+    
+}
+
+#item3 h2{
+       background-color: cyan;
+}
+
+
+
+/********** Large devices only **********/
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+.navbar-header h1{
+   padding-right: 5px;
+   font-size: 5vw;
+   }
+
+#nav-list{
+  display: block;
+}
+
+#nav-list a:hover{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000;
+  font-weight: bold;
+  background-color: #fff;
+  opacity: 0.3;
+
+}
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+.navbar-header h1{
+   padding-right: 5px;
+   font-size: 6vw;
+}
+
+#nav-list{
+  display: block;
+}
+
+
+#nav-list a:hover{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000;
+  font-weight: bold;
+  background-color: #fff;
+  opacity: 0.3;
+
+}
+
+}
+
